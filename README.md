@@ -1,10 +1,11 @@
 # odoo_install_ubuntu14.04
 # Instalación de Odoo 9.0 en servidor Ubuntu 14.04
 
-# Actualizo
-sugo apt-get update
+# Lo primero que hago es actualizar los repositorios (servidores desde donde se descargan las aplicaciones que instalo)
+# El usuario root no necesita escribir el comando "sudo".
+apt-get update
 
-
+# Empiezo la instalación de Odoo 9.0
 wget -O - https://nightly.odoo.com/odoo.key | apt-key add -
 echo "deb http://nightly.odoo.com/9.0/nightly/deb/" >> /etc/apt/sources.list
 
