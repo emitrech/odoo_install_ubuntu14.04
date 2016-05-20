@@ -5,7 +5,34 @@
 # El usuario root no necesita escribir el comando "sudo".
 apt-get update
 
+# Instalo el comando "yum"
+apt-get install yum
+apt-get install yum-utils
+yum-config-manager --enable
+
+
+
 # Empiezo la instalación de Odoo 9.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 wget -O - https://nightly.odoo.com/odoo.key | apt-key add -
 echo "deb http://nightly.odoo.com/9.0/nightly/deb/" >> /etc/apt/sources.list
 
