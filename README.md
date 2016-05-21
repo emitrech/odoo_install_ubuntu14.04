@@ -13,7 +13,7 @@ wget -O - https://nightly.odoo.com/odoo.key | apt-key add -
 
 echo "deb http://nightly.odoo.com/9.0/nightly/deb/" >> /etc/apt/sources.list
 
-# Acá https://github.com/odoo/odoo/issues/798 dicen que la url correcta ahora cambió a esta: 
+# Acá (https://github.com/odoo/odoo/issues/798) dicen que la url correcta ahora cambió a esta: 
 # deb http://nightly.openerp.com/9.0/nightly/deb/ ./ (entonces el comando correcto quedaría así):
 echo "deb http://nightly.openerp.com/9.0/nightly/deb/ ./" >> /etc/apt/sources.list
 
@@ -25,10 +25,10 @@ apt-get update
 # Instalar el paquete que falla
 apt-get install python-ofxparse
 
-https://raw.githubusercontent.com/jseutter/ofxparse/master/ofxparse/ofxparse.py
 
 
 
+# De acá (https://pypi.python.org/pypi/ofxparse#downloads) descargué el paquete python-ofxparse
 
 
 
