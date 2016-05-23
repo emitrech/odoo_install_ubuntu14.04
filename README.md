@@ -20,16 +20,14 @@ echo "deb http://nightly.openerp.com/9.0/nightly/deb/ ./" >> /etc/apt/sources.li
 # Acá pongo otro link que saqué de acá (https://www.youtube.com/watch?v=P1EpmtuIroQ&index=2&list=PLJakXodQ0d5JtGDp6qoLAe5GXSUwvbR--)
 echo "deb http://ca.archive.ubuntu.com/ubuntu vividmain universe" >> /etc/apt/sources.list
 
+# Actualizo
 apt-get update
 
 # Instalar el paquete que falla
 apt-get install python-ofxparse
 
 
-
-
 # De acá (https://pypi.python.org/pypi/ofxparse#downloads) descargué el paquete python-ofxparse
-
 
 
 # Instalo el comando "yum"
